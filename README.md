@@ -15,7 +15,12 @@ https://github.com/google/prompt-to-prompt
 * Another difference is how the replacement is done. In the paper, the replacement is done by replacing the key and value of the attention. In this version, the replacement is done by replacing the value of the attention.
   * This allows for a much simpler implementation, and also allows for optimization using memory efficient attention.
 
-## Usage
+## Quickstart
+
+* Take a look at the jupyter notebook for a quick demo: [notebook](prompt_to_prompt.ipynb).
+* Everything is in the notebook, except for the 2 lines of code that need to be changed in the diffuser code.
+
+## Setup
 
 * install the version of diffusers, or change it in your own version of diffusers
 ```
